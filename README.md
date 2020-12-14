@@ -2,7 +2,7 @@
 Project to write a .gbs converter for LSDJ. Currently investigating if this is possible. Currently there are issues with players playing back the exported .gbs. **Currently exports a usable .gbs but there are issues.**
 
 ## build
-warning: this is in a very rough state
+warning: this is in a very rough experimental state
 
 1. use [lsdpack](https://github.com/jkotlinski/lsdpack) to generate song data. 
 2. edit `SECTION "SONG_LOCATIONS",ROM0` in the exported .s file to `SECTION "SONG_LOCATIONS",ROM0[$470]`
