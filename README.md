@@ -16,8 +16,13 @@ warning: this is in a very rough state
 - MinGW make
 - MinGW gcc (must be added to PATH)
 - [RGBDS](https://github.com/gbdev/rgbds) 
+- [lsdpack](https://github.com/jkotlinski/lsdpack)
 
 ## current state and issues
 I have changed the update method from LYC to the timer interupt so that it can work with the [.gbs specs](https://ocremix.org/info/GBS_Format_Specification). Currently the ROM works fine but the exported .gbs does not. I have noticed that if you remove the cart type in the header and run the rom in bgb, the problem behavoir will arise. This is the same for standard non modified lsdpack. I personally suspect there is some issue with the way the engine changes ROM banks. Others have said it may be due to the changed timing method. I had my doubts because 1: The issue can be replicated in the unmodified player 2: The timing works fine in my modified stand alone ROM.
 
 Progress is stalled untill this can be rectified. 
+
+## credits
+uses [lsdpack](https://github.com/jkotlinski/lsdpack) player
+thanks to Defense Mechanism, Infu and DevEd
