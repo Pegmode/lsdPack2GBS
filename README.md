@@ -10,7 +10,7 @@ warning: this is in a very rough experimental state
 4. build the ROM in `/GBRomShell` using RGBDS
 5. build the romPatcher using make (windows only)
 6. rename the compiled ROM to `gbsRom.gb`
-7. run `LSDpack2Gbs.exe`
+7. run `LSDpack2Gbs.exe` with `gbsRom.gb` in the same directory
 
 ## requirements 
 - MinGW make
