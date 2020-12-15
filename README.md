@@ -26,4 +26,4 @@ Progress is stalled untill this can be rectified.
 ## credits
 uses [lsdpack](https://github.com/jkotlinski/lsdpack) player
 
-thanks to Defense Mechanism, Infu and DevEd
+thanks to Defense Mechanismand DevEd. Big thanks to Infu for his demo LSDJ song which is included.
