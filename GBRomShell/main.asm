@@ -39,5 +39,5 @@ TIMAIRQ:
 ;$430 is next section
 
 include "player.s"
-include "songs.s"
+include "songs.s" ;Demo Song "Maniac" by INFU
 ;include "testsb.s"
