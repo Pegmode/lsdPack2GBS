@@ -13,8 +13,8 @@ warning: this is in a very rough experimental state
 7. run `LSDpack2Gbs.exe` with `gbsRom.gb` in the same directory
 
 ## requirements 
-- MinGW make
-- MinGW gcc (must be added to PATH)
+- MinGW make (windows)
+- MinGW gcc (must be added to PATH) (windows)
 - [RGBDS](https://github.com/gbdev/rgbds) 
 - [lsdpack](https://github.com/jkotlinski/lsdpack)
 
