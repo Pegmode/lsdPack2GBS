@@ -1,6 +1,8 @@
 # lsdPack2GBS
 Project to write a .gbs converter for LSDJ. Currently investigating if this is possible. Currently there are issues with players playing back the exported .gbs. **Currently exports a usable .gbs but there are issues.**
 
+**UPDATE: after some work official .gbs support has been added to LSDpack. End results were that the LSDpack player needed to be slightly modified and there is now a 2MB size limit to the export since .gbs only supports MBC1**
+
 ## build
 warning: this is in a very rough experimental state
 
@@ -23,7 +25,9 @@ I have changed the update method from LYC to the timer interupt so that it can w
 1. The issue can be replicated in the unmodified player 
 2. The timing works fine in my modified stand alone ROM.
 
-Progress is stalled untill this can be rectified. 
+~~Progress is stalled untill this can be rectified.~~
+
+Official support added to LSDpack after minor player re-write and MBC1 limitation 
 
 ## credits
 uses [lsdpack](https://github.com/jkotlinski/lsdpack) player
